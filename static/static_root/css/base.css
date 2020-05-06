@@ -1,0 +1,162 @@
+/* Блог */
+
+a.page-header {
+position: absolute;
+width: 50px;
+height: 31px;
+left: 194px;
+top: 110px;
+
+font-family: Circe Rounded;
+font-size: 24px;
+line-height: 31px;
+/* identical to box height */
+
+
+color: #010101;
+}
+
+/* NEW */
+
+div.new {
+position: absolute;
+width: 37px;
+height: 20px;
+left: 194px;
+top: 213px;
+
+font-family: Circe Rounded;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.416667px;
+
+color: #E9399C;
+}
+
+a.title {
+position: absolute;
+width: 672px;
+height: 104px;
+left: 194px;
+top: 244px;
+
+font-family: Museo Cyrl;
+font-size: 45px;
+line-height: 52px;
+/* or 116% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.416667px;
+
+color: #315AF2;
+}
+
+p.text {
+position: absolute;
+width: 391px;
+height: 108px;
+left: 200px;
+top: 352px;
+
+font-family: Circe Rounded;
+font-size: 16px;
+line-height: 22px;
+/* or 137% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.416667px;
+
+color: #000000;
+}
+
+p.date {
+position: absolute;
+width: 95px;
+height: 20px;
+left: 222px;
+top: 729px;
+
+font-family: Circe Rounded;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.416667px;
+
+color: #979797;
+}
+
+a.read {
+position: absolute;
+width: 129px;
+height: 43px;
+left: 214px;
+top: 487px;
+
+font-family: Museo Cyrl;
+font-size: 36px;
+line-height: 43px;
+display: flex;
+align-items: center;
+letter-spacing: -0.416667px;
+
+color: #FFFFFF;
+}
+
+a.read {
+position: absolute;
+width: 168px;
+height: 68px;
+left: 194px;
+top: 475px;
+
+background: #315AF2;
+border-radius: 3px;
+}
+
+p.statya-2 {
+position: absolute;
+width: 260px;
+height: 49px;
+left: 194px;
+top: 640px;
+
+font-family: Museo Cyrl;
+font-size: 36px;
+line-height: 20px;
+/* or 56% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.416667px;
+
+color: #315AF2;
+}
+
+a.title-2 {
+position: absolute;
+width: 258px;
+height: 84px;
+left: 238px;
+top: 869px;
+
+font-family: Circe Rounded;
+font-size: 24px;
+line-height: 28px;
+/* or 117% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.416667px;
+
+color: #315AF2;
+}

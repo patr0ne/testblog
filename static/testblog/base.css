@@ -1,0 +1,320 @@
+body {
+position: relative;
+width: 1440px;
+height: 900px;
+
+background: #FFFFFF;
+}
+
+/*div.bitmap {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 92.11%;
+
+background: url(/static/img/Bitmap.png);
+border: 1px solid #979797;
+}
+*/
+a.page-header {
+position: absolute;
+width: 50px;
+height: 31px;
+left: 194px;
+top: 110px;
+
+font-family: Circe Rounded;
+font-size: 24px;
+line-height: 31px;
+/* identical to box height */
+
+
+color: #010101;
+}
+
+div.new {
+position: absolute;
+width: 37px;
+height: 20px;
+left: 194px;
+top: 213px;
+
+font-family: Circe Rounded;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.416667px;
+
+color: #E9399C;
+}
+
+a.title {
+position: absolute;
+width: 672px;
+height: 104px;
+left: 194px;
+top: 244px;
+
+font-family: Museo Cyrl;
+font-size: 45px;
+line-height: 52px;
+/* or 116% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.416667px;
+
+color: #315AF2; 
+
+}
+
+p.text {
+position: absolute;
+width: 391px;
+height: 108px;
+left: 200px;
+top: 352px;
+
+font-family: Circe Rounded;
+font-size: 16px;
+line-height: 22px;
+/* or 137% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.416667px;
+
+color: #000000;
+}
+
+p.date {
+position: absolute;
+width: 95px;
+height: 20px;
+left: 222px;
+top: 729px;
+
+font-family: Circe Rounded;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.416667px;
+
+color: #979797;
+}
+
+a.read {
+position: absolute;
+width: 129px;
+height: 43px;
+left: 214px;
+top: 487px;
+
+font-family: Museo Cyrl;
+font-size: 36px;
+line-height: 43px;
+display: flex;
+align-items: center;
+letter-spacing: -0.416667px;
+
+color: #FFFFFF;
+}
+
+img.read {
+position: absolute;
+width: 168px;
+height: 68px;
+left: 194px;
+top: 475px;
+
+background: #315AF2;
+border-radius: 3px;
+}
+
+p.statya-2 {
+position: absolute;
+width: 260px;
+height: 49px;
+left: 194px;
+top: 640px;
+
+font-family: Museo Cyrl;
+font-size: 36px;
+line-height: 20px;
+/* or 56% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.416667px;
+
+color: #315AF2;
+}
+
+a.title-2 {
+position: absolute;
+width: 258px;
+height: 84px;
+left: 238px;
+top: 869px;
+
+font-family: Circe Rounded;
+font-size: 24px;
+line-height: 28px;
+/* or 117% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.416667px;
+
+color: #315AF2;
+}
+
+img.statya {
+position: absolute;
+width: 624px;
+height: 568px;
+left: 773px;
+top: 146px;
+}
+
+a.logo-kodland {
+position: absolute;
+width: 190px;
+height: 72.28px;
+left: 21px;
+top: 85px;
+
+background: url(/static/img/Logo_Kodland.png);
+}
+
+img.rectangle {
+position: absolute;
+width: 1448px;
+height: 102px;
+left: -2px;
+top: 69px;
+
+background: #FFFFFF;
+border: 2px solid #CDCDCD;
+box-sizing: border-box;
+}
+
+img.line-2 {
+position: absolute;
+width: 1440px;
+height: 0px;
+left: 0px;
+top: 600px;
+
+border: 2px solid #CDCDCD;
+}
+
+img.vector-like {
+position: absolute;
+left: 17.22%;
+right: 81.18%;
+top: 23.67%;
+bottom: 74.22%;
+
+background: #CDCDCD;
+}
+
+img.vector-com {
+position: absolute;
+left: 20.97%;
+right: 77.73%;
+top: 23.86%;
+bottom: 74.36%;
+
+}
+
+img.vector-views {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 18.13%;
+bottom: 18.13%;
+}
+
+img.vector-views-1 {
+position: absolute;
+left: 30.22%;
+right: 30.22%;
+top: 30.22%;
+bottom: 30.22%;
+
+background: #CDCDCD;
+}
+
+img.statya-2 {
+position: absolute;
+width: 217px;
+height: 112px;
+left: 262px;
+top: 734px;
+}
+
+p.like {
+position: absolute;
+width: 20px;
+height: 16px;
+left: 274px;
+top: 215px;
+
+font-family: Circe Rounded;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.416667px;
+
+color: #CDCDCD;
+}
+
+p.comments {
+position: absolute;
+width: 19px;
+height: 16px;
+left: 324.41px;
+top: 215px;
+
+font-family: Circe Rounded;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.416667px;
+
+color: #CDCDCD;
+}
+
+p.views {
+position: absolute;
+width: 20px;
+height: 16px;
+left: 376.41px;
+top: 215px;
+
+font-family: Circe Rounded;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.416667px;
+
+color: #CDCDCD;
+}

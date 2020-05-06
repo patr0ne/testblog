@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title %}{{article.article_title}}{% endblock %}
+
+{% block content %}
+
+		<h2 class="title">{{article.article_title}}</h2>
+		
+		{% if article.article_img %}
+		
+		<img src="{{ article.article_img.url }}" width="400" height="400" border="2">
+		
+		{% endif %}
+		
+		<p class="text">{{article.article_text}}</p>
+		
+		<em>{{article.pub_date}}</em>
+		
+		<hr>
+		
+		{% if latest_comments_list %}
+		
+			{% for c in latest_comments_list %}
+			<p>
+				<strong>{{c.author_name}}</strong>
+				<p>{{c.comment_text}}</p>
+			</p>
+			{% endfor %}
+			
+		{% else %}
+			Комментариев нет.
+		{% endif %}
+		
+		<hr>
+		
+		<form action="{% url 'articles:leave_comment' article.id %}" method="POST">
+		
+			{% csrf_token %}
+		
+			<input type="text" required="" placeholder="Ваше имя", name="name"><br>
+			<textarea name="text" required="" placeholder="Текст комментария" cols="30" rows="10">
+			</textarea><br>
+			
+			<button type="submit">Оставить комментарий</button>
+		
+		</form>
+
+{% endblock %}
+

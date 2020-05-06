@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block title %}Блог{% endblock %}
+
+{% block content %}
+    {% for article in latest_articles_list %}
+        
+        {% if article.was_published_recently %}
+        <!--<p>{{ article.pub_date }}</p>-->
+        <div class="new">NEW</div>
+		<img class="vector-like" src="/static/img/Vector.png">
+		<p class="like">25</p>
+		<img class="vector-com" src="/static/img/Vector-com.png">
+		<p class="comments">25</p>
+		<img class="vector-views" src="/static/img/Vector-views.png">
+		<img class="vector-views-1" src="/static/img/Vector-views1.png">
+		<p class="views">25</p>
+	    <a href="{{ article.get_absolute_url }}" class="title">{{ article.article_title }}</a>
+       	{% if article.article_img %}
+		<img class="statya" src="{{ article.article_img.url }}">
+		{% endif %}
+        <p class="text">{{ article.article_text }}</p>
+        <img class="read" src="/static/img/Rectangle 3.png">
+        <a href="{{ article.get_absolute_url }}" class="read">Читать</a>	
+		{% endif %}
+        
+    {% empty %}
+    <p>Нет постов</p>
+    {% endfor %}
+
+{% endblock %}
+{% block content-2 %}
+	<p class="statya-2">Другие статьи</h3>
+    {% for article in latest_articles_list %}
+        
+        <p class="date">{{ article.pub_date }}</p>
+		<a href="{{ article.get_absolute_url }}" class="title-2">{{ article.article_title }}</a>
+       	{% if article.article_img %}
+		<img class="statya-2" src="{{ article.article_img.url }}">
+		{% endif %}
+        
+    {% empty %}
+    <p>Нет постов</p>
+    {% endfor %}
+
+{% endblock %}
